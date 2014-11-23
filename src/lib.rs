@@ -11,7 +11,6 @@
 
 #![warn(missing_docs, unused_qualifications, unused_typecasts)]
 
-extern crate native;
 extern crate libc;
 #[phase(link, plugin)]
 extern crate log;
